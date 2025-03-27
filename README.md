@@ -43,7 +43,7 @@ Before running the script, make sure you have the following installed and config
 
 - The script uses an **ODBC driver** to connect to the SQL Server (via a supported Python library like `pyodbc`).
 - A **cursor object** is created to execute SQL queries.
-- Data is **loaded from the `.csv` file into a Pandas DataFrame**.
+- Data is **loaded from the `.csv` file into a Pandas DataFrame** using chunks.
 - Column names are normalized (e.g., converted to **lowercase**, and multi-word names are joined using underscores or dashes).
 - If necessary, **some fields are converted to strings**, and explicit casting is performed later in SQL queries.
 - The existing table (if it exists) is **dropped before inserting new data**, to avoid overloading or duplicating data in the database.
