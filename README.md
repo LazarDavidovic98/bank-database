@@ -23,5 +23,5 @@ Automated ETL pipeline with normalization and analysis for bank transaction data
 - `dataset.csv` / `dataset.json`
 
 ## Full documentation
-See [documentation.md](docs/Documentation.md) for detailed steps and phase breakdown.
+See [Documentation.md](docs/Documentation.md) for detailed steps and phase breakdown.
 
